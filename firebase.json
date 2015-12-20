@@ -1,0 +1,9 @@
+{
+  "firebase": "poly-learningsamples",
+  "public": "dist",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
