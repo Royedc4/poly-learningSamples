@@ -15,6 +15,28 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   // Learn more about auto-binding templates at http://goo.gl/Dx1u2g
   var app = document.querySelector('#app');
 
+  // Roy: Temp Code
+  //faker.locale = 'es';
+  //function generateContacts() {
+  //  var data = [];
+  //  for (var i =  0; i < 100; i++) {
+  //    data.push({
+  //      lastName: faker.fake('{{name.lastName}}'),
+  //      firstName: faker.fake('{{name.firstName}}'),
+  //      phoneNumber: faker.fake('{{phone.phoneNumber}}'),
+  //      dateEntry: faker.fake('{{date.past}}'),
+  //      avatar: faker.fake('{{image.avatar}}'),
+  //      email: faker.fake('{{internet.email}}'),
+  //      isLgbt: faker.fake('{{random.boolean}}'),
+  //      longitude: faker.fake('{{address.longitude}}'),
+  //      latitude: faker.fake('{{address.latitude}}')
+  //    });
+  //  }
+  //  return data;
+  //}
+  //app.data = generateContacts();
+  //console.log(app.data);
+
   // Sets app default base URL
   app.baseUrl = '/';
   if (window.location.port === '') {  // if production
@@ -33,7 +55,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   // Listen for template bound event to know when bindings
   // have resolved and content has been stamped to the page
   app.addEventListener('dom-change', function() {
-    console.log('Our app is ready to rock!');
+    console.log('Hey :) Our app is ready to rock! CHKCHK rdy2rock (8)');
   });
 
   // See https://github.com/Polymer/polymer/issues/1381
