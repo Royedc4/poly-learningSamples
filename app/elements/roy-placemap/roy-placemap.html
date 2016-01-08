@@ -13,14 +13,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <template>
     <style include="shared-styles"></style>
     <style>
-      :host {
+      :host{
         display: block;
       }
     </style>
-    <h2 class="page-title">{{message}}</h2>
-    <span class="paper-font-body2">Update text to change the message.</span>
-    <!-- Listens for "input" event and sets message to <input>.value -->
-    <input class="paper-font-body2" value="{{message::input}}">
+
+      <h2 class="page-title">{{message}}</h2>
+      <!-- Listens for "input" event and sets message to <input>.value -->
+      <paper-input label="Update text to change the message" value="{{message::input}}"></paper-input>
   </template>
 
   <script>
